@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+  <defs>
+    <linearGradient id="6-a" x1="15.046%" x2="66.658%" y1="50.007%" y2="50.007%">
+      <stop offset="0%" stop-color="#F1ADB3"/>
+      <stop offset="100%" stop-color="#D4858D"/>
+    </linearGradient>
+    <linearGradient id="6-b" x1="35.812%" x2="68.848%" y1="49.986%" y2="49.986%">
+      <stop offset="0%" stop-color="#F1ADB3"/>
+      <stop offset="100%" stop-color="#D4858D"/>
+    </linearGradient>
+    <linearGradient id="6-c" x1="15.046%" x2="66.658%" y1="50.007%" y2="50.007%">
+      <stop offset="0%" stop-color="#F1ADB3"/>
+      <stop offset="100%" stop-color="#D4858D"/>
+    </linearGradient>
+    <linearGradient id="6-d" x1="35.812%" x2="68.848%" y1="50.02%" y2="50.02%">
+      <stop offset="0%" stop-color="#F1ADB3"/>
+      <stop offset="100%" stop-color="#D4858D"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#6-a)" fill-rule="nonzero" d="M.213 1.614C1.187-.17 3.135-.272 5.59.336h.04c7.02 1.765 18.136 9.312 22.173.04 9.535 9.19 11.502 23.066 11.502 23.066L28.27 22.205C18.167 21.069 18.167 13.42 7.699 9.343 6.056 8.694-.294 4.982.011 2.243c.02-.223.08-.426.202-.629z" transform="scale(-1 1) rotate(83.601 -49.755 6.96)"/>
+    <path fill="url(#6-b)" fill-rule="nonzero" d="M.693 10.266l9.393-6.11a14.09 14.09 0 0 1 7.165-2.274c3.793-.15 9.588-.361 13.652-.481 2.303-.09 4.606.18 6.804.888 2.95.963 5.554 2.378 7.857 4.049-2.74 9.754-14.781 3.808-21.976 3.04l-.046-.015-6.352-.752a6.162 6.162 0 0 0-3.838.722c-1.806 1.009-4.696 2.559-7.406 3.778-2.273 1.009-4.064.482-5.238-.27a1.443 1.443 0 0 1-.707-1.25 1.518 1.518 0 0 1 .692-1.325z" transform="scale(1 -1) rotate(-88.452 -5.986 -32.836)"/>
+    <path fill="url(#6-c)" fill-rule="nonzero" d="M7.699 9.323c10.468 4.098 10.468 11.746 20.57 12.882l11.035 1.237S37.337 9.566 27.802.377C23.765 9.647 12.65 2.1 5.63.337h-.04C3.134-.274 1.186-.172.212 1.613a1.435 1.435 0 0 0-.202.63c-.305 2.738 6.045 6.45 7.688 7.08z" transform="rotate(83.601 10.207 74.021)"/>
+    <path fill="url(#6-d)" fill-rule="nonzero" d="M.708 12.846c1.174.752 2.965 1.279 5.238.27 2.71-1.219 5.6-2.77 7.406-3.778a6.162 6.162 0 0 1 3.838-.722l6.352.752.046.016c7.195.767 19.236 6.713 21.976-3.041-2.303-1.67-4.907-3.086-7.857-4.05-2.198-.707-4.501-.977-6.804-.902-4.064.135-9.86.346-13.652.497a14.09 14.09 0 0 0-7.165 2.272L.693 10.272a1.518 1.518 0 0 0-.692 1.324c0 .497.24.964.707 1.25z" transform="rotate(91.548 28.003 64.192)"/>
+    <path stroke="#23263C" stroke-width=".833" d="M59.961 67.756c-26.66-18.378-1.965-34.17 0-45.756 1.966 11.587 26.662 27.378 0 45.756z"/>
+    <line x2="38.402" y1=".417" y2=".417" stroke="#23263C" stroke-width=".833" transform="matrix(0 -1 -1 0 60.378 76.016)"/>
+    <line x2="5.071" y1=".417" y2=".417" stroke="#23263C" stroke-width=".833" transform="scale(1 -1) rotate(54.902 72.654 35.96)"/>
+    <line x2="7.987" y1=".416" y2=".417" stroke="#23263C" stroke-width=".833" transform="scale(-1 1) rotate(-51.206 21.907 87.848)"/>
+    <line x2="9.815" y1=".417" y2=".417" stroke="#23263C" stroke-width=".833" transform="scale(1 -1) rotate(51.564 87.624 34.642)"/>
+    <line x2="9.751" y1=".417" y2=".417" stroke="#23263C" stroke-width=".833" transform="scale(-1 1) rotate(-44.494 43.332 103.698)"/>
+    <polygon fill="#4B5CBD" fill-rule="nonzero" points="0 11.634 15.697 0 15.697 11.117" transform="translate(40.514 86.188)"/>
+    <polygon fill="#4B5CBD" fill-rule="nonzero" points="15.697 11.634 0 0 0 11.117" transform="translate(63.713 86.188)"/>
+  </g>
+</svg>

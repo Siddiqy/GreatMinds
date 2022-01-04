@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu label {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .section-padding {
+        padding: 50px 0px;
+    }
+
+    .section-header h2 {
+        font-size: 1.6em;
+    }
+
+    .hero-bg {
+        height: 400px;
+        width: 100%;
+    }
+
+    .video-player {
+        left: 45%;
+        right: 45%;
+    }
+
+    .hero-content {
+        padding: 30px 0px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content h4 {
+        margin: 0 40px;
+        line-height: 1.5;
+    }
+    
+    .benefit-item {
+        margin-top: 40px;
+    }
+
+    .modal-content iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .courses {
+        margin-top: 20px;
+    }
+
+    .course-item {
+        min-height: 320px;
+    } 
+
+    .message-btn {
+        text-align: center;
+    }
+    
+    .copyright, .share {
+        margin-top: 20px;
+    }
+
+    .brand {
+        text-align: center;
+    }
+
+    .share {
+        text-align: center;
+    }
+
+    .device-padding {
+        margin-top: 10px;
+    }
+
+    .contact-content {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+}

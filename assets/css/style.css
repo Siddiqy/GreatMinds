@@ -1,0 +1,387 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    background-color: #738d7615;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #08420F;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 70px 0px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #8f531310;
+    padding: 30px 0px;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#logo img {
+    height: 50px;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+
+#mobile-logo img {
+    height: 40px;
+    padding-top: 10px;
+}
+
+.main-menu {
+    padding: 15px 0px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu a {
+    float: left;
+}
+
+.mobile-menu label {
+    padding-top: 10px;
+    float: right;
+    font-size: 1.5em;
+    display: none;
+}
+
+.mobile-menu input {
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    padding-top: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    float: left;
+}
+
+.menu ul > li {
+    padding: 15px 0px;
+    padding-left: 50px;
+}
+
+.menu ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #3a138ecc;
+}
+
+.header-padding {
+    padding: 10px 0px;
+    transition: 0.3s;
+}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.main-menu ul li > a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #3a138ecc;
+}
+
+.section-header h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.section-header hr {
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #08420F;
+}
+
+.hero-bg {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/Workplace-Wellbeing_Webinar_Coverslide_1920x1080.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.video-player {
+    position: absolute;
+    padding-top: 300px;
+    top: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.play-btn {
+    font-size: 50px;
+    color: #3a138ecc;
+}
+
+.modal-content iframe {
+    width: 600px;
+    height: 400px;
+}
+
+.hero-content {
+    padding: 50px 0px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.hero-content h4 {
+    font-size: 1em;
+    font-weight: 400;
+    color: #058F17;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn-style {
+    border-style: none;
+    padding: 10px 30px;
+    color: rgb(245, 238, 238);
+    background-color: #3a138ecc;
+    box-shadow: 0px 0px 5px #3a138e6e;
+}
+
+.benefit-item {
+    margin-top: 60px;
+    margin-right: 0;
+}
+
+.item-des {
+    margin-left: 15px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #058f1742;
+}
+
+.item-img img {
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.item-des h4 {
+    line-height: 1.4;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.item-des p {
+    line-height: 1.7;
+    font-weight: 300;
+    color: rgb(61, 61, 61);
+}
+
+.courses {
+    margin-top: 30px;
+}
+
+.course-item {
+    position: relative;
+    min-height: 360px;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.course-item h4 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.course-item p {
+    padding-bottom: 10px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgb(61, 61, 61);
+}
+
+.view-course {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.view-course-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fa-chevron-down, .fa-chevron-up {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.course-item-expanded {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border-bottom-right-radius: 0px;
+}
+
+.trainer-section {
+    margin-top: 60px;
+}
+
+.trainer-img-bg, .contact-form-bg {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.trainer-bg, .contact-bg {
+    padding: 30px;
+    background-color: #8f53131f;
+}
+
+.trainer-content p {
+    padding-top: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgb(61, 61, 61);
+}
+
+.trainer-content ol {
+    padding: 15px 0px;
+    padding-left: 30px;
+}
+
+.trainer-content ol > li {
+    line-height: 2;
+    color: rgb(61, 61, 61);
+}
+
+.testomonial-content {
+    padding: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #dddddd86;
+}
+
+.testomonial-content p {
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 1px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: rgb(61, 61, 61);
+}
+
+.testomonial-content small {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.logo-section {
+    padding-top: 30px;
+}
+
+.logo-item {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.contact-us {
+    margin-top: 50px;
+}
+
+.contact-content {
+    margin-top: 80px;
+    line-height: 1.7;
+}
+
+.fas {
+    padding-right: 8px;
+}
+
+.contact-content a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #3a138ecc;
+}
+
+.message-form {
+    padding-top: 30px;
+}
+
+footer {
+    padding: 40px 0px;
+}
+
+.form-group input, textarea {
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid #08420f44;
+}
+
+.footer-logo img {
+    height: 40px;
+    width: auto;
+    object-fit: cover;
+}
+
+.share {
+    text-align: right;
+}
+
+.fab {
+    padding-left: 5px;
+    color: #3a138ecc;
+}
